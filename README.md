@@ -7,3 +7,5 @@ Why do people think you can choose your own square, with the numbers already set
 The year the patriots won 13-3 I think one person took home the pot after almost every quarter (he was a football guy and selected 0-3, 3-0 etc). 
 
 Anway, this year, I randomized the drawing and selection of numbers to ensure no collusion. Super easy script but posting it here anyway.
+
+<https://rpubs.com/clairemo/sb_sqaures>
