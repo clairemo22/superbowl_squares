@@ -1,0 +1,39 @@
+---
+title: "super bowl squares"
+author: "Claire Morrison"
+date: "2023-02-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# list of people participating in squares @ superbowl party
+
+```{r}
+names<- c("cm", "mr", "mt", "ls", "af", "qm", "er", "jw", "pc", "jh")
+partyppl<- rep(names, 10)
+```
+
+## randomly select order with no replacement 
+
+```{r}
+set.seed(22)
+squareout<- sample(partyppl, 100, replace = F)
+array(squareout,dim=c(10,10))
+
+table(squareout)
+```
+# randomly select order for square number column/rows
+
+```{r}
+set.seed(232)
+
+chiefs<- sample(0:9,10, replace=F)
+birds<- sample(0:9,10, replace=F)
+
+chiefs
+birds
+```
+
